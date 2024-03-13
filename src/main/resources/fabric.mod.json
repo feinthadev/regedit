@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "registrymanipulation",
+  "version": "${version}",
+
+  "name": "RegistryManipulation",
+  "description": "A library made specifically for manipulating Vanilla registries.",
+  "authors": [],
+  "contact": {},
+
+  "license": "unlicense",
+  "icon": "assets/registrymanipulation/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+          "mixins": [
+        "registrymanipulation.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+              "fabric": "*",
+          "minecraft": "${minecraft_version}"
+  }
+}
