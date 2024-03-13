@@ -1,26 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "registrymanipulation",
+  "id": "regedit",
   "version": "${version}",
-
-  "name": "RegistryManipulation",
-  "description": "A library made specifically for manipulating Vanilla registries.",
+  "name": "RegistryEditor",
+  "description": "A library made specifically for manipulating and modifying Registries. This mod is VERY dangerous to use if you don't know what you are doing!!",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/avetharun/RegistryManipulation"
+  },
   "license": "unlicense",
-  "icon": "assets/registrymanipulation/icon.png",
-
+  "icon": "assets/regedit/icon.png",
   "environment": "*",
-  "entrypoints": {},
-
-          "mixins": [
-        "registrymanipulation.mixins.json"
-      ],
-    
+  "entrypoints": {
+    "main": [
+      "com.feintha.regedit.tests.TestClass"
+    ]
+  },
+  "mixins": [
+    "registrymanipulation.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-              "fabric": "*",
-          "minecraft": "${minecraft_version}"
-  }
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener" : "regedit.accesswidener"
 }

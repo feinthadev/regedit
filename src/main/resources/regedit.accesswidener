@@ -1,0 +1,7 @@
+accessWidener v2 named
+
+accessible method net/minecraft/registry/entry/RegistryEntry$Reference setValue (Ljava/lang/Object;)V
+
+accessible    field    net/minecraft/registry/SimpleRegistry    intrusiveValueToEntry    Ljava/util/Map;
+accessible    method    net/minecraft/registry/SimpleRegistry    set    (ILnet/minecraft/registry/RegistryKey;Ljava/lang/Object;Lcom/mojang/serialization/Lifecycle;)Lnet/minecraft/registry/entry/RegistryEntry$Reference;
+accessible field net/minecraft/item/Item registryEntry Lnet/minecraft/registry/entry/RegistryEntry$Reference;
