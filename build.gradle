@@ -82,7 +82,7 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/feintha/regedit"
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
+                username = "avetharun"
                 password = System.getenv("GITHUB_TOKEN")
             }
         }
