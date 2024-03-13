@@ -75,8 +75,13 @@ publishing {
         mavenJava(MavenPublication) {
             from components.java
         }
+        register("jar", MavenPublication) {
+            from(components["java"])
+            pom {
+                url.set("https://github.com/avetharun/RegistryManipulation.git")
+            }
+        }
     }
-
     // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
     repositories {
         maven {
